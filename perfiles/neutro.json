@@ -1,0 +1,71 @@
+{
+  "nombre": "Neutro",
+  "activos": [
+    "NQ",
+    "MNQ",
+    "ES",
+    "MES"
+  ],
+  "tipos": [
+    "Breakout",
+    "Retest",
+    "Reversión",
+    "Continuación"
+  ],
+  "empresas": [
+    "Cuenta propia"
+  ],
+  "tipos_cuenta": [
+    "Fondeada",
+    "Challenge",
+    "Real",
+    "Demo"
+  ],
+  "valor_punto": {
+    "NQ": 20.0,
+    "MNQ": 2.0,
+    "ES": 50.0,
+    "MES": 5.0,
+    "YM": 5.0,
+    "MYM": 0.5,
+    "RTY": 50.0,
+    "M2K": 5.0,
+    "GC": 100.0,
+    "MGC": 10.0,
+    "CL": 1000.0,
+    "MCL": 100.0
+  },
+  "comision_contrato": {},
+  "offset_horas": {
+    "mt5": 0.0,
+    "tradovate": 0.0
+  },
+  "agrupar_segundos": 2,
+  "plan_inicial": "# Mi plan de trading\n\nInstrumento y sesión: (completá)\nEstrategia: (completá)\n\n## 1. Tesis\n¿Por qué operás este mercado y este horario? ¿Qué ventaja creés tener?\n\n## 2. Setup\n- Condiciones de entrada:\n- Condiciones que invalidan el trade:\n- Horario / ventana permitida:\n\n## 3. Gestión de riesgo\n- Riesgo por trade:\n- Máximo de trades por sesión:\n- Corte diario (pérdida máxima o cantidad de SL seguidos):\n\n## 4. Objetivo del día\n- Cuándo parás de operar:\n\n## 5. Reglas no negociables\n1.\n2.\n3.\n",
+  "plantilla_inicial": {
+    "nombre": "Check básico",
+    "items": [
+      {
+        "id": "n_plan",
+        "label": "Operé dentro de mi plan y mi horario"
+      },
+      {
+        "id": "n_sl",
+        "label": "Definí el SL antes de entrar"
+      },
+      {
+        "id": "n_sl_fijo",
+        "label": "No moví el SL en contra"
+      },
+      {
+        "id": "n_riesgo",
+        "label": "Riesgo dentro de lo que definí"
+      },
+      {
+        "id": "n_setup",
+        "label": "Setup válido, sin entrar por impulso"
+      }
+    ]
+  },
+  "version": 1
+}

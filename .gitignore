@@ -1,0 +1,19 @@
+.venv*/
+__pycache__/
+*.pyc
+build/
+dist/
+*.db
+*.db-wal
+*.db-shm
+capturas/
+backups/
+logs/
+perfil.json
+ui_prefs.json
+# preset personal: no se publica
+perfiles/gabo.json
+
+# notas y lanzador personales: no se publican
+CONTINUAR_AQUI.md
+launch_gabo.bat
